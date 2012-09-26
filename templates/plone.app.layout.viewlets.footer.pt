@@ -13,9 +13,26 @@
         </iframe>
     </div>
 
-    <div id="twitter" class="span4">
+    <div id="twitter" class="span2">
         <a href="http://twitter.com/ACLARKNET" class="twitter-follow-button" data-button="grey"
             data-text-color="#FFFFFF" data-link-color="#00AEFF" data-show-count="false"></a>
     </div>
+
+
+    <div class="span2">
+        <ul>
+        <li><a tal:attributes="href python: context.portal_url() + '/services/applications'">Applications</a></li>
+        <li><a tal:attributes="href python: context.portal_url() + '/services/development'">Development</a></li>
+        <li><a tal:attributes="href python: context.portal_url() + '/services/training'">Training</a></li>
+        <li><a tal:attributes="href python: context.portal_url() + '/services/hosting'">Hosting</a></li>
+        <li><a tal:attributes="href python: context.portal_url() + '/services/support'">Support</a></li>
+        <hr />
+        <li><a tal:attributes="href python: context.portal_url() + '/contact-info'">Contact</a></li>
+        <hr />
+<!--        <li><a tal:attributes="href python: context.portal_url() + '/sitemap'">Sitemap</a></li> -->
+        <li><a href="http://github.com/ACLARKNET">Code</a></li>
+        </ul>
+    </div>
+
 
 </footer>

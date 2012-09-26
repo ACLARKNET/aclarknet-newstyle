@@ -21,16 +21,26 @@
         Contact
     </h1>
 
-    <div id="parent-fieldname-description">
+    <div id="parent-fieldname-description" class="documentDescription">
         We look forward to hearing from you
     </div>
 
-    <div id="contact-wrapper">
-        <table id="contact-table">
-            <tr><td>ACLARK.NET, LLC<br />
-                    Bethesda, MD USA<br />
-                    E-mail: <a href="mailto:info@aclark.net">info@aclark.net</a></td></tr>
-        </table>
+    <div class="row" id="contact-wrapper">
+
+        <div class="span10">
+
+        <br />
+        <address>
+        <strong>ACLARK.NET, LLC</strong><br />
+        Bethesda, MD USA<br />
+        </address>
+
+        <address>
+        <strong>Amy and Alex Clark</strong><br />
+        E-mail: <a href="mailto:info@aclark.net">info@aclark.net</a>
+        </address>
+
+        <hr />
 
         <div tal:condition="not:email_from_address">
 
@@ -73,6 +83,7 @@
                            name="sender_fullname" 
                            size="40" 
                            value="" 
+                           class="span5"
                            tal:attributes="value request/sender_fullname|nothing"
                            />
                 </div>
@@ -98,6 +109,7 @@
                            name="sender_from_address" 
                            size="40" 
                            value="" 
+                           class="span5"
                            tal:attributes="value request/sender_from_address|nothing"
                            />
                 </div>
@@ -117,6 +129,7 @@
                               id="message"
                               rows="5"
                               cols="50"
+                              class="span10"
                               tal:content="request/message|nothing"
                               > </textarea>
                 </div>
@@ -129,7 +142,8 @@
                     <tal:block tal:replace="structure context/@@captcha/image_tag"/>
 
                     <div id="button-wrapper">
-                        <input class="button"
+
+                        <input class="btn btn-large btn-primary"
                                type="submit"
                                name="form.button.Send"
                                value="Send form"
@@ -150,6 +164,8 @@
             <input type="hidden" name="subject" value="ACLARK.NET, LLC contact form submission" />
 
             </form>
+        </div>
+
         </div>
 
     </div>
