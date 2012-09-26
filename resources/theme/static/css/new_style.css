@@ -11,14 +11,18 @@ body {
 }
 .brand {
     color: #FAFAFA !important;
-    font-family: 'Oswald';
+    font-family: Georgia;
 }
 .brand .alpha {
     font-size: 360%;
-    font-family: 'Oswald', serif;
+    font-style: italic;
 }
 .brand .name {
     font-size: 50px;
+}
+.carousel-inner {
+    border-bottom: 1px solid #FAFAFA;
+    padding-bottom: 2em;
 }
 #content {
     color: #FAFAFA;
@@ -53,7 +57,7 @@ footer {
 }
 .navbar-inner {
     background: #AA001F !important; 
-    height: 55px;
+    height: 50px;
 }
 .portletHeader {
     font-size: 125%;
