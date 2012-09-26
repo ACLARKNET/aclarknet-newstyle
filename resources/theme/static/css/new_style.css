@@ -1,0 +1,79 @@
+#about {
+    padding-top: 9px;    
+}
+.alex {
+    height: 250px;
+    border-bottom: 1px solid #FAFAFA;
+}
+body {
+    background: url("/++theme++static/img/aclark-net-background.png") repeat-x;
+    background-color: black;
+}
+.brand {
+    color: #FAFAFA !important;
+    font-family: 'Oswald';
+}
+.brand .alpha {
+    font-size: 360%;
+    font-family: 'Oswald', serif;
+}
+.brand .name {
+    font-size: 50px;
+}
+#content {
+    color: #FAFAFA;
+}
+.description {
+    font-size: 125%;
+    margin: 1em 0 1em 0;
+}
+.documentDescription {
+    font-size: 125%;
+    margin: 1em 0 1em 0;
+}
+dt {
+    margin: 1em 0 1em 0;
+}
+#facebook {
+    padding-top: 1px;    
+}
+footer {
+    border-top: 1px solid #999999;
+    color: #999999;
+    margin-top: 600px;
+    width: 100%;
+    padding-top: 1em;
+}
+.hero-unit {
+    background: black;
+}
+.image-left {
+    float: left;
+    margin: 0 1em 0 0;
+}
+.navbar-inner {
+    background: #AA001F !important; 
+    height: 55px;
+}
+.portletHeader {
+    font-size: 125%;
+}
+#portal-column-one {
+    color: #FAFAFA;
+}
+#portal-column-two {
+    color: #FAFAFA;
+}
+.team-member {
+    height: 150px;
+    border-bottom: 1px solid #FAFAFA;
+}
+.service {
+    height: 500px;
+}
+.static-text-portlet {
+    height: 200px;
+}
+#twitter {
+    padding-top: 15px;
+}

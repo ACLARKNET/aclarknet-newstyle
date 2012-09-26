@@ -1,0 +1,16 @@
+<rules
+    xmlns="http://namespaces.plone.org/diazo"
+    xmlns:css="http://namespaces.plone.org/diazo/css"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+    <append css:content="#category" css:theme=".hero-unit" />
+    <before content='/html/head/title' theme='/html/head/title' />
+    <theme href="index.html" />
+    <replace css:content=".nav" css:theme=".nav" />
+    <replace css:content="#content" css:theme-children=".hero-unit" />
+    <replace css:content="#portal-column-one" css:theme-children=".col1" />
+    <replace css:content="#portal-column-two" css:theme-children=".col2" />
+    <replace css:content="footer" css:theme="footer" />
+    <replace css:content="#portal-logo" css:theme=".brand" />
+
+</rules>

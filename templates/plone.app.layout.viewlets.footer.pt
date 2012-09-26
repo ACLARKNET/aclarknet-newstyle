@@ -1,0 +1,21 @@
+<footer metal:define-macro="portal_footer" class="row"> 
+
+    <div id="about" class="offset1 span3">
+        Powered by <a href="http://plone.org">Plone</a>.<br /> <br />
+        &copy; 2004-2012 <a tal:attributes="href python: context.portal_url()">ACLARK.NET, LLC</a>.<br />
+        All rights reserved.<br /> <br />
+        Design by <a href="http://freecsstemplates.org">Free CSS Templates</a>, <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> and <a href="http://twitter.com/aclark4life">@aclark4life</a>.
+    </div>
+
+    <div id="facebook" class="span3">
+        <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2Faclarknet%2F181017655288138&amp;width=292&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=false&amp;header=false&amp;height=62"
+            scrolling="no" frameborder="0" allowTransparency="true">
+        </iframe>
+    </div>
+
+    <div id="twitter" class="span4">
+        <a href="http://twitter.com/ACLARKNET" class="twitter-follow-button" data-button="grey"
+            data-text-color="#FFFFFF" data-link-color="#00AEFF" data-show-count="false"></a>
+    </div>
+
+</footer>

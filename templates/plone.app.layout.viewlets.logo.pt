@@ -1,0 +1,6 @@
+<a metal:define-macro="portal_logo"
+    tal:attributes="href view/navigation_root_url"
+    id="portal-logo"
+    class="brand"
+    ><span class="alpha">&alpha;&nbsp</span><span class="name">ACLARK.NET, LLC</span>
+</a>
