@@ -52,7 +52,7 @@
 
         </div>
 
-        <div tal:condition="email_from_address">
+        <div tal:content="nothing" tal:condition="email_from_address">
 
             <form 
                 action=""
