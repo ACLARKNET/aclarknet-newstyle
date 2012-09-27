@@ -30,7 +30,7 @@
         <li><a tal:attributes="href python: context.portal_url() + '/contact-info'">Contact</a></li>
         <br />
 <!--        <li><a tal:attributes="href python: context.portal_url() + '/sitemap'">Sitemap</a></li> -->
-        <li><a href="http://github.com/ACLARKNET">Code</a></li>
+<!--        <li><a href="http://github.com/ACLARKNET">Code</a></li> -->
         </ul>
     </div>
 
