@@ -55,6 +55,9 @@ footer {
     float: left;
     margin: 0 1em 0 0;
 }
+li {
+    list-style-type: none;
+}
 .navbar-inner {
     background: #AA001F !important; 
     height: 50px;
