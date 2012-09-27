@@ -21,7 +21,7 @@ body {
     font-size: 50px;
 }
 .carousel-inner {
-    border-bottom: 1px solid #CCC000;
+    border-bottom: 1px solid #CCC;
     padding-bottom: 2em;
 }
 #content {
@@ -53,8 +53,8 @@ footer {
 }
 hr {
     border: none;
-    background-color: #CCC000;
-    color: #CCC000;
+    background-color: #CCC;
+    color: #CCC;
     height: 1px;
 }
 .image-left {
