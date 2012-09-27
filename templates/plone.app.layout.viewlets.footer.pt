@@ -26,9 +26,9 @@
         <li><a tal:attributes="href python: context.portal_url() + '/services/training'">Training</a></li>
         <li><a tal:attributes="href python: context.portal_url() + '/services/hosting'">Hosting</a></li>
         <li><a tal:attributes="href python: context.portal_url() + '/services/support'">Support</a></li>
-        <hr />
+        <br />
         <li><a tal:attributes="href python: context.portal_url() + '/contact-info'">Contact</a></li>
-        <hr />
+        <br />
 <!--        <li><a tal:attributes="href python: context.portal_url() + '/sitemap'">Sitemap</a></li> -->
         <li><a href="http://github.com/ACLARKNET">Code</a></li>
         </ul>
