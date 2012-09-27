@@ -29,6 +29,8 @@ I get it - I got it, I know the commit is good.
 
 The Products I write - you wish you would.
 
-I'm never in Plone training my Plone instance is not straining…
+I'm never in Plone training my Plone instance is not straining
+
+…
 
 .. _`gittip`: http://gittip.com/aclark4life
