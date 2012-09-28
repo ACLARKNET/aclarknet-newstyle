@@ -80,7 +80,7 @@ hr {
     border-bottom: 1px solid #FAFAFA;
 }
 .service {
-    padding-top: 30px;
+    padding: 30px 0 30px 0;
 }
 .static-text-portlet {
     height: 200px;
