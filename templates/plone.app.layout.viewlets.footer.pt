@@ -4,7 +4,8 @@
         Powered by <a href="http://plone.org">Plone</a>.<br /> <br />
         &copy; 2004-2012 <a tal:attributes="href python: context.portal_url()">ACLARK.NET, LLC</a>.<br />
         All rights reserved.<br /> <br />
-        Design by <a href="http://freecsstemplates.org">Free CSS Templates</a>, <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> and <a href="http://twitter.com/aclark4life">@aclark4life</a>.
+        Design by <a href="http://freecsstemplates.org">Free CSS Templates</a>, <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> and <a href="http://twitter.com/aclark4life">@aclark4life</a>.<br /> <br />
+        <a tal:attributes="href python: context.portal_url() + '/site-credits'">Credits</a>
     </div>
 
     <div id="facebook" class="span3">
