@@ -8,17 +8,10 @@
         <a tal:attributes="href python: context.portal_url() + '/site-credits'">Credits</a>
     </div>
 
-    <div id="facebook" class="span3">
-        <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2Faclarknet%2F181017655288138&amp;width=292&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=false&amp;header=false&amp;height=62"
-            scrolling="no" frameborder="0" allowTransparency="true">
-        </iframe>
-    </div>
-
-    <div id="twitter" class="span2">
+    <div id="twitter" class="offset3 span2">
         <a href="http://twitter.com/ACLARKNET" class="twitter-follow-button" data-button="grey"
             data-text-color="#FFFFFF" data-link-color="#00AEFF" data-show-count="false"></a>
     </div>
-
 
     <div class="span2">
         <ul>
@@ -34,6 +27,5 @@
         <li><a href="http://github.com/ACLARKNET/new_style">Code</a></li>
         </ul>
     </div>
-
 
 </footer>
