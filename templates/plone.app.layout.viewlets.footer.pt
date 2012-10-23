@@ -8,7 +8,7 @@
         <a tal:attributes="href python: context.portal_url() + '/site-credits'">Credits</a>
     </div>
 
-    <div id="twitter" class="offset3 span2">
+    <div id="twitter" class="offset1 span2">
         <a href="http://twitter.com/ACLARKNET" class="twitter-follow-button" data-button="grey"
             data-text-color="#FFFFFF" data-link-color="#00AEFF" data-show-count="false"></a>
     </div>
