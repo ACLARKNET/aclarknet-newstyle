@@ -79,11 +79,7 @@ hr {
 #portal-column-two {
     color: #FAFAFA;
 }
-.team-member {
-    border-bottom: 1px solid #FAFAFA;
-    padding: 0 0 30px 0;
-}
-.service {
+.team-member, .testimonial, .service {
     border-bottom: 1px solid #FAFAFA;
     padding: 0 0 30px 0;
 }
