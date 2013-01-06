@@ -84,6 +84,7 @@ hr {
     padding: 0 0 30px 0;
 }
 .service {
+    border-bottom: 1px solid #FAFAFA;
     padding: 0 0 30px 0;
 }
 #twitter {
