@@ -64,7 +64,7 @@ hr {
     margin: 0 1em 0 0;
 }
 .ken {
-    padding-bottom: 3em;
+    padding-bottom: 3em !important;
 }
 .navbar-inner {
     background: #AA001F !important; 
@@ -81,7 +81,7 @@ hr {
 }
 .team-member {
     border-bottom: 1px solid #FAFAFA;
-    padding: 30px 0 50px 0;
+    padding: 30px 0 30px 0;
 }
 .service {
     padding: 30px 0 30px 0;
